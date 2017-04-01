@@ -16,7 +16,7 @@ sys.path.insert(0,'/var/www/venv/lib/python2.7/site-packages')
 # Add the app's directory to the PYTHONPATH
 sys.path.append('/var/www/string_parser')
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'educat.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'string_parser.settings'
 
 # Activate your virtual env
 activate_env=os.path.expanduser("/var/www/venv/bin/activate_this.py")
